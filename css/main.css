@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+body {
+  background-color: beige;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1140px;
+    margin: 0 auto;
+}
+.mix {
+  margin: 0 10px 20px;
+}
+ h2, .buttons {
+    text-align: center;
+     margin: 20px;
+ }
+ button {
+     background-color: rgba(116, 21, 21, 0.76);
+     color: white;
+     border: none;
+     padding: 12px 28px;
+     cursor: pointer;
+     transition: all .3s;
+ }
+ button:focus {
+   outline: none;
+ }
+ button:hover {
+   background-color: burlywood;
+ }
+ h2 {
+     background-color: rgba(116, 21, 21, 0.85);
+     color: white;
+     line-height: 110px;
+ }
+
+ button.mixitup-control-active {
+     background-color: burlywood;
+ }
